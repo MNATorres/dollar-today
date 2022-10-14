@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@500;900&family=Josefin+Sans:wght@300;600;700&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Open+Sans&family=Roboto+Mono:ital,wght@1,700&family=Roboto:wght@400;500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/****** Comienza Header *******/
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    border-bottom: 2px solid rgb(197, 196, 196);
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.imageLogo{
+    width: 150px;
+}
+
+.LogoArg{
+    width: 40px;
+}
+
+.menu-desktop{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.menu-desktop li, .menu-desktop a {
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+    transition: ease-in-out 200ms;
+}
+
+.menu-desktop a:hover{
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+}
+
+.menu-movil{
+    display: none;
+}
+
+/******* Termina Header *******/
+
+/******* Comienza el Main *******/
+
+.main{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.containerDollar{
+    width: 100%;
+    color: rgb(73, 73, 73);
+    margin: 0 auto;
+}
+
+.dollar-blue{  /* Comienza Dolar Blue*/
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 98%;
+}
+
+.description-dollar-blue{
+    padding: 30px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.precio{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: rgb(103, 103, 103);
+}
+
+.precio h2{
+    font-size: 1.25rem;
+    padding: 10px;
+}
+
+.blueActualizado{
+    display: flex;
+    font-size: 12px;
+}
+
+.precio p{
+    font-size: 3rem;
+    padding: 10px;
+    color: #069C49;
+    font-weight: 500;
+}  /* termina Dolar Blue*/
+
+.otherDollar{ /*Content Other Dollar*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.otherDollarValue{
+    width: 32%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: rgb(103, 103, 103);
+}
+
+.otherDollarValue h2{
+    font-size: 1.25rem;
+}
+
+.description-other-dollar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.cambioOther h2{
+    font-size: 1rem;
+}
+
+.cambioOther p{
+    font-size: 2rem;
+    color: #069C49;
+    padding: 5px;
+} /* End Content Other Dollar*/
+
+/****** Termina el Main *******/
+
+/******  Footer *******/
+
+.footer{
+    font-size: 0.75rem;
+}
+
+.footer p{
+    padding: 15px;
+}
+
+.footerMarca{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #069C49;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+.logoBlanco{
+    height: 30px;
+}
+
+.banderaFooter{
+    height: 30px;
+}
+
+.bancoFooter{
+    height: 40px;
+}
+
+
+/******  Termina el Footer *******/
+
+
+/****** Media Queries *******/
