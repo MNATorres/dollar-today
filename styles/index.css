@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    min-width: 300px;
 }
 
 /****** Comienza Header *******/
@@ -16,10 +17,10 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 5px 40px;
+    padding: 1px 40px;
     border-bottom: 2px solid rgb(197, 196, 196);
     align-items: center;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 .imageLogo{
@@ -153,16 +154,19 @@ body{
 /******  Footer *******/
 
 .footer{
+    margin-top: 50px;
     font-size: 0.75rem;
 }
 
 .footer p{
     padding: 15px;
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 .footerMarca{
     width: 100%;
-    padding: 10px 0;
+    padding: 1px 0;
     background-color: #069C49;
     display: flex;
     justify-content: space-around;
@@ -182,8 +186,46 @@ body{
     height: 40px;
 }
 
-
 /******  Termina el Footer *******/
 
 
 /****** Media Queries *******/
+
+@media screen and (max-width: 770px ) {
+
+    .main{
+        padding: 0 10px;
+    }
+
+    .menu-desktop{
+        display: none;
+    }
+
+    .menu-movil{
+        display: unset;
+        font-size: 2rem;
+    }
+
+    .dollar-blue{
+        margin-bottom: 5px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+
+    .otherDollarValue{
+        margin: 2px 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;    }
+
+    .description-other-dollar{
+        padding: 0;
+        justify-content: flex-end;
+        
+    }
+
+    .ventaOther{
+        margin-left: 15px;
+    }
+}
