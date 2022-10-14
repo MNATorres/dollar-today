@@ -159,12 +159,13 @@ body{
 }
 
 .footer p{
-    padding: 15px;
+    padding: 5px;
     max-width: 1080px;
     margin: 0 auto;
 }
 
 .footerMarca{
+    margin-top: 10px;
     width: 100%;
     padding: 1px 0;
     background-color: #069C49;
@@ -228,4 +229,5 @@ body{
     .ventaOther{
         margin-left: 15px;
     }
+    
 }
