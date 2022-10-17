@@ -1,3 +1,10 @@
+name: Update Dollar Values
+
+on:
+  push:
+    branches:
+    - 'main'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -7,8 +14,7 @@ jobs:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Create local changes
-      run: |
-        python scripts/update_values.py
+      run: python scripts/update_values.py        
     - name: Commit files
       run: |
         git config --local user.email "fedejure@gmail.com"
