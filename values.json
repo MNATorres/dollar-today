@@ -1,9 +1,22 @@
 {
-    "blue": {"compra": 287, "venta": 291},
-    "oficial": {"compra": 287, "venta": 291},
-    "bolsa": {"compra": 287, "venta": 291},
-    "ccliqui": {"compra": 287, "venta": 291},
-    "cripto": {"compra": 287, "venta": 291},
-    "solidario": {"compra": 287, "venta": 291},
-    "turista": {"compra": 287, "venta": 291}
+    "oficial": {
+        "compra": "150.28",
+        "venta": "158.28"
+    },
+    "blue": {
+        "compra": "286.00",
+        "venta": "290.00"
+    },
+    "ccliqui": {
+        "compra": "287.15",
+        "venta": "319.31"
+    },
+    "turista": {
+        "compra": "No cotiza",
+        "venta": "276.99"
+    },
+    "bolsa": {
+        "compra": "296.06",
+        "venta": "295.14"
+    }
 }
