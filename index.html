@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dolar Hoy</title>
     <link rel="stylesheet" href="./styles/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script
       src="https://kit.fontawesome.com/95f057a988.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js"></script>
   </head>
   <body>
     <section>
@@ -24,10 +27,10 @@
         />
 
         <ul class="menu-desktop">
+          <!-- <li><a href="#">Menu</a></li>
           <li><a href="#">Menu</a></li>
           <li><a href="#">Menu</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Menu</a></li>
+          <li><a href="#">Menu</a></li> -->
         </ul>
 
         <ul class="menu-movil">
@@ -41,112 +44,112 @@
       <!--Comienza el Main-->
       <main class="main">
         <div class="containerDollar">
-          <div class="dollar-blue">
+          <div class="dollar-blue" name="blue">
             <!--Blue-->
             <h2 clas>DÓLAR BLUE</h2>
             <div class="description-dollar-blue">
               <div class="compraBlue precio">
                 <h2>Compra</h2>
-                <p>$287</p>
+                <p id="compra">$287</p>
               </div>
               <div class="ventaBlue precio">
                 <h2>Venta</h2>
-                <p>$291</p>
+                <p id="venta">$291</p>
               </div>
             </div>
             <div class="blueActualizado">
               <i class="fas fa-history"></i>
-              <p>Actualizado el 13/10/22 08:47 PM</p>
+              <p>Actualizado el <span id="updated"></span></p>
             </div>
           </div>
 
-          <div class="otherDollar">
+          <div class="otherDollar" name="oficial">
             <div class="dollar-oficial otherDollarValue">
               <!--Oficial-->
               <h2>Dólar Oficial</h2>
               <div class="description-other-dollar">
                 <div class="compraOther cambioOther">
                   <h2>Compra</h2>
-                  <p>$287</p>
+                  <p id="compra">$287</p>
                 </div>
                 <div class="ventaOther cambioOther">
                   <h2>Venta</h2>
-                  <p>$291</p>
+                  <p id="venta">$291</p>
                 </div>
               </div>
             </div>
 
-            <div class="dollar-bolsa otherDollarValue">
+            <div class="dollar-bolsa otherDollarValue" name="bolsa">
               <!--Bolsa-->
               <h2>Dólar Bolsa</h2>
               <div class="description-other-dollar">
                 <div class="compraOther cambioOther">
                   <h2>Compra</h2>
-                  <p>$287</p>
+                  <p id="compra">$287</p>
                 </div>
                 <div class="ventaOther cambioOther">
                   <h2>Venta</h2>
-                  <p>$291</p>
+                  <p id="venta">$291</p>
                 </div>
               </div>
             </div>
 
-            <div class="dollar-liqui otherDollarValue">
+            <div class="dollar-liqui otherDollarValue" name="ccliqui">
               <!--Liqui-->
               <h2>Contado con Liqui</h2>
               <div class="description-other-dollar">
                 <div class="compraOther cambioOther">
                   <h2>Compra</h2>
-                  <p>$287</p>
+                  <p id="compra">$287</p>
                 </div>
                 <div class="ventaOther cambioOther">
                   <h2>Venta</h2>
-                  <p>$291</p>
+                  <p id="venta">$291</p>
                 </div>
               </div>
             </div>
 
-            <div class="dollar-oficial otherDollarValue">
+            <div class="dollar-oficial otherDollarValue" name="cripto">
               <!--Cripto-->
               <h2>Dólar Cripto</h2>
               <div class="description-other-dollar">
                 <div class="compraOther cambioOther">
                   <h2>Compra</h2>
-                  <p>$287</p>
+                  <p id="compra">$287</p>
                 </div>
                 <div class="ventaOther cambioOther">
                   <h2>Venta</h2>
-                  <p>$291</p>
+                  <p id="venta">$291</p>
                 </div>
               </div>
             </div>
 
-            <div class="dollar-bolsa otherDollarValue">
+            <div class="dollar-bolsa otherDollarValue" name="solidario">
               <!--Solidario-->
               <h2>Dólar Solidario</h2>
               <div class="description-other-dollar">
                 <div class="compraOther cambioOther">
                   <h2>Compra</h2>
-                  <p>$287</p>
+                  <p id="compra">$287</p>
                 </div>
                 <div class="ventaOther cambioOther">
                   <h2>Venta</h2>
-                  <p>$291</p>
+                  <p id="venta">$291</p>
                 </div>
               </div>
             </div>
 
-            <div class="dollar-liqui otherDollarValue">
+            <div class="dollar-liqui otherDollarValue" name="turista">
               <!--Turista-->
               <h2>Dólar Turista</h2>
               <div class="description-other-dollar">
                 <div class="compraOther cambioOther">
                   <h2>Compra</h2>
-                  <p>$287</p>
+                  <p id="compra">$287</p>
                 </div>
                 <div class="ventaOther cambioOther">
                   <h2>Venta</h2>
-                  <p>$291</p>
+                  <p id="venta">$291</p>
                 </div>
               </div>
             </div>
