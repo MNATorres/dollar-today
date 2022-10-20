@@ -13,7 +13,7 @@ body{
 
 /****** Comienza Header *******/
 
-.header{
+.header {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -21,6 +21,11 @@ body{
     border-bottom: 2px solid rgb(197, 196, 196);
     align-items: center;
     margin-bottom: 30px;
+}
+
+.headerImage {
+    display: flex;
+    align-items: center;
 }
 
 .imageLogo{
@@ -84,7 +89,7 @@ body{
 .description-dollar-blue{
     padding: 30px;
     display: flex;
-    width: 80%;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 

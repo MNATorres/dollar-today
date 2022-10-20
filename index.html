@@ -1,138 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="language" content="es">
-    <meta name="robots" content="index, follow">
-    <meta name="distribution" content="global">
-    <meta name="rating" content="general">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dólar Argentina, Cotización del dólar, precio del dólar | DolarArgentina.com</title>
-    <meta name="author" content="DolarArgentina.com">
-    <meta name="name" content="DolarArgentina.com">
-    <meta name="news_keywords" content="noticias ,secciones ,Dólar,Economía,Mercado,Herramientas de inversión,Internacional,Empresas,Finanzas personales,Ramiro Marra,El Rumor de la City,Criptos,">
-    <meta itemprop="keywords" content="noticias">
-    <meta itemprop="keywords" content="secciones">
-    <meta itemprop="keywords" content="Dólar">
-    <meta itemprop="keywords" content="Economía">
-    <meta itemprop="keywords" content="Mercado">
-    <meta itemprop="keywords" content="Herramientas de inversión">
-    <meta itemprop="keywords" content="Internacional">
-    <meta itemprop="keywords" content="Empresas">
-    <meta itemprop="keywords" content="Finanzas personales">
-    <meta itemprop="keywords" content="Ramiro Marra">
-    <meta itemprop="keywords" content="El Rumor de la City">
-    <meta itemprop="keywords" content="Cripto">
-    <meta itemprop="keywords" content="Banco Central">
-    <meta itemprop="keywords" content="Javier Milei">
 
-    <meta name="description" content="Seguí la cotización del dólar minuto a minuto, conocé el precio del dólar en DolarArgentina.com">
-    <link rel="stylesheet" href="./styles/index.css" />
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/95f057a988.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./index.js"></script>
-  </head>
-  <body>
-    <section>
-      <!--Comienza Header-->
-      <header class="header">
-        <img class="imageLogo" src="./image/dolarLogo.svg" alt="Dolar" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="language" content="es">
+  <meta name="robots" content="index, follow">
+  <meta name="distribution" content="global">
+  <meta name="rating" content="general">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dólar Argentina, Cotización del dólar, precio del dólar | DolarArgentina.com</title>
+  <meta name="author" content="DolarArgentina.com">
+  <meta name="name" content="DolarArgentina.com">
+  <meta name="news_keywords"
+    content="noticias ,secciones ,Dólar,Economía,Mercado,Herramientas de inversión,Internacional,Empresas,Finanzas personales,Ramiro Marra,El Rumor de la City,Criptos,">
+  <meta itemprop="keywords" content="noticias">
+  <meta itemprop="keywords" content="secciones">
+  <meta itemprop="keywords" content="Dólar">
+  <meta itemprop="keywords" content="Economía">
+  <meta itemprop="keywords" content="Mercado">
+  <meta itemprop="keywords" content="Herramientas de inversión">
+  <meta itemprop="keywords" content="Internacional">
+  <meta itemprop="keywords" content="Empresas">
+  <meta itemprop="keywords" content="Finanzas personales">
+  <meta itemprop="keywords" content="Ramiro Marra">
+  <meta itemprop="keywords" content="El Rumor de la City">
+  <meta itemprop="keywords" content="Cripto">
+  <meta itemprop="keywords" content="Banco Central">
+  <meta itemprop="keywords" content="Javier Milei">
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <meta name="description"
+    content="Seguí la cotización del dólar minuto a minuto, conocé el precio del dólar en DolarArgentina.com">
+  <link rel="stylesheet" href="./styles/index.css" />
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/95f057a988.js" crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</head>
 
-        <img
-          class="LogoArg"
-          src="https://cdn-icons-png.flaticon.com/512/203/203039.png"
-          alt="Dolar Argentina"
-        />
+<body>
+  <section>
+    <!--Comienza Header-->
+    <header class="header">
+      <div class="headerImage">
+        <img class="imageLogo" src="./img/dolarLogo.svg" alt="Dolar" />
+        <img class="LogoArg" src="./img/icon.png" alt="Dolar Argentina" />
+      </div>
+      
 
-        <ul class="menu-desktop">
-          <!-- <li><a href="#">Menu</a></li>
+
+      <ul class="menu-desktop">
+        <!-- <li><a href="#">Menu</a></li>
           <li><a href="#">Menu</a></li>
           <li><a href="#">Menu</a></li>
           <li><a href="#">Menu</a></li> -->
-        </ul>
+      </ul>
 
-        <ul class="menu-movil">
-          <i class="fa-solid fa-bars"></i>
-        </ul>
-      </header>
-      <!--Termina Header-->
-    </section>
+      <ul class="menu-movil">
+        <i class="fa-solid fa-bars"></i>
+      </ul>
+    </header>
+    <!--Termina Header-->
+  </section>
 
-    <section>
-      <!--Comienza el Main-->
-      <main class="main">
-        <div class="containerDollar">
-          <div class="dollar-blue" name="blue">
-            <!--Blue-->
-            <h2 clas>DÓLAR BLUE</h2>
-            <div class="description-dollar-blue">
-              <div class="compraBlue precio">
+  <section>
+    <!--Comienza el Main-->
+    <main class="main">
+      <div class="containerDollar">
+        <div class="dollar-blue" name="blue">
+          <!--Blue-->
+          <h2 clas>DÓLAR BLUE</h2>
+          <div class="description-dollar-blue">
+            <div class="compraBlue precio">
+              <h2>Compra</h2>
+              <p id="compra">$287</p>
+            </div>
+            <div class="ventaBlue precio">
+              <h2>Venta</h2>
+              <p id="venta">$291</p>
+            </div>
+          </div>
+          <div class="blueActualizado">
+            <i class="fas fa-history"></i>
+            <p>Actualizado el <span id="updated"></span></p>
+          </div>
+        </div>
+
+        <div class="otherDollar" name="oficial">
+          <div class="dollar-oficial otherDollarValue">
+            <!--Oficial-->
+            <h2>Dólar Oficial</h2>
+            <div class="description-other-dollar">
+              <div class="compraOther cambioOther">
                 <h2>Compra</h2>
                 <p id="compra">$287</p>
               </div>
-              <div class="ventaBlue precio">
+              <div class="ventaOther cambioOther">
                 <h2>Venta</h2>
                 <p id="venta">$291</p>
               </div>
             </div>
-            <div class="blueActualizado">
-              <i class="fas fa-history"></i>
-              <p>Actualizado el <span id="updated"></span></p>
+          </div>
+
+          <div class="dollar-bolsa otherDollarValue" name="bolsa">
+            <!--Bolsa-->
+            <h2>Dólar Bolsa</h2>
+            <div class="description-other-dollar">
+              <div class="compraOther cambioOther">
+                <h2>Compra</h2>
+                <p id="compra">$287</p>
+              </div>
+              <div class="ventaOther cambioOther">
+                <h2>Venta</h2>
+                <p id="venta">$291</p>
+              </div>
             </div>
           </div>
 
-          <div class="otherDollar" name="oficial">
-            <div class="dollar-oficial otherDollarValue">
-              <!--Oficial-->
-              <h2>Dólar Oficial</h2>
-              <div class="description-other-dollar">
-                <div class="compraOther cambioOther">
-                  <h2>Compra</h2>
-                  <p id="compra">$287</p>
-                </div>
-                <div class="ventaOther cambioOther">
-                  <h2>Venta</h2>
-                  <p id="venta">$291</p>
-                </div>
+          <div class="dollar-liqui otherDollarValue" name="ccliqui">
+            <!--Liqui-->
+            <h2>Contado con Liqui</h2>
+            <div class="description-other-dollar">
+              <div class="compraOther cambioOther">
+                <h2>Compra</h2>
+                <p id="compra">$287</p>
+              </div>
+              <div class="ventaOther cambioOther">
+                <h2>Venta</h2>
+                <p id="venta">$291</p>
               </div>
             </div>
+          </div>
 
-            <div class="dollar-bolsa otherDollarValue" name="bolsa">
-              <!--Bolsa-->
-              <h2>Dólar Bolsa</h2>
-              <div class="description-other-dollar">
-                <div class="compraOther cambioOther">
-                  <h2>Compra</h2>
-                  <p id="compra">$287</p>
-                </div>
-                <div class="ventaOther cambioOther">
-                  <h2>Venta</h2>
-                  <p id="venta">$291</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="dollar-liqui otherDollarValue" name="ccliqui">
-              <!--Liqui-->
-              <h2>Contado con Liqui</h2>
-              <div class="description-other-dollar">
-                <div class="compraOther cambioOther">
-                  <h2>Compra</h2>
-                  <p id="compra">$287</p>
-                </div>
-                <div class="ventaOther cambioOther">
-                  <h2>Venta</h2>
-                  <p id="venta">$291</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- <div class="dollar-oficial otherDollarValue" name="cripto">
+          <!-- <div class="dollar-oficial otherDollarValue" name="cripto">
               <h2>Dólar Cripto</h2>
               <div class="description-other-dollar">
                 <div class="compraOther cambioOther">
@@ -146,7 +146,7 @@
               </div>
             </div> -->
 
-            <!-- <div class="dollar-bolsa otherDollarValue" name="solidario">
+          <!-- <div class="dollar-bolsa otherDollarValue" name="solidario">
               <h2>Dólar Solidario</h2>
               <div class="description-other-dollar">
                 <div class="compraOther cambioOther">
@@ -160,37 +160,58 @@
               </div>
             </div> -->
 
-            <div class="dollar-liqui otherDollarValue" name="turista">
-              <!--Turista-->
-              <h2>Dólar Turista</h2>
-              <div class="description-other-dollar">
-                <div class="compraOther cambioOther">
-                  <h2>Compra</h2>
-                  <p id="compra">$287</p>
-                </div>
-                <div class="ventaOther cambioOther">
-                  <h2>Venta</h2>
-                  <p id="venta">$291</p>
-                </div>
+          <div class="dollar-liqui otherDollarValue" name="turista">
+            <!--Turista-->
+            <h2>Dólar Turista</h2>
+            <div class="description-other-dollar">
+              <div class="compraOther cambioOther">
+                <h2>Compra</h2>
+                <p id="compra">$287</p>
+              </div>
+              <div class="ventaOther cambioOther">
+                <h2>Venta</h2>
+                <p id="venta">$291</p>
               </div>
             </div>
           </div>
         </div>
-      </main>
-    </section>
-    <!--Termina el Main-->
+      </div>
+    </main>
+  </section>
+  <!--Termina el Main-->
 
-    <!--Footer-->
-    <section>
-      <footer class="footer">
-        <p>Dolar.com es un sitio meramente informativo, y no brinda consejo, recomendación, asesoramiento o invitación de ningún tipo, ni de ninguna clase o naturaleza, para realizar actos y/u operaciones de cualquier tipo, clase o naturaleza. Las fuentes de información aquí citadas son de público acceso. Los cuadros mostrados en este sitio son elaborados sobre la base de los datos de público acceso que en cada caso se indica, y constituyen propiedad intelectual amparada por la Ley N°11.723. Los titulares de este sitio deslindan toda responsabilidad respecto de la posible falta de precisión y/o veracidad y/o exactitud y/o integridad y/o vigencia de los datos y/o de las fuentes de información de público acceso tenidos en consideración para la elaboración del contenido de este sitio. Los titulares de este sitio no garantizan la precisión y/o veracidad y/o exactitud y/o integridad y/o vigencia de los datos mostrados en este sitio. Los titulares de este sitio deslindan toda responsabilidad respecto del uso que puedan llegar a dar a la información y/o a los datos incluídos en el contenido de este sitio quienes accedan a este último. Los titulares de este sitio no se responabilizan por los eventuales daños patrimoniales y/o perjuicios que pudieren resultar de decisiones adoptadas sobre la base de los datos mostrados en este sitio por quienes accedan a este último. Los titulares de este sitio no mantienen ni poseen ningún tipo de acuerdo, asociación, alianza o vínculo con los anunciantes que publicitan sus productos y/o servicios en este sitio más que la locación de espacios publicitarios. Los titulares de este sitio no se responsabilizan respecto de la precisión y/o veracidad y/o exactitud y/o integridad y/o vigencia de los contenidos de las piezas publicitarias o banners, por lo que tales contenidos son de exclusiva responsabilidad de los respectivos anunciantes.</p>
-        <div class="footerMarca">
-          <img class="logoBlanco" src="./image/logo-blanco.png" alt="Logo Dólar">
-          <img class="banderaFooter" src="https://astelus.com/wp-content/viajes/la-historia-de-la-bandera-de-argentina.png" alt="Bandera Argentina">
-          <img class="bancoFooter" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Bcra_logo.png" alt="Banco Central">
-        </div>
-      </footer>
-    </section>
-    <!--Termina el Footer-->
-  </body>
+  <!--Footer-->
+  <section>
+    <footer class="footer">
+      <p>Dolar.com es un sitio meramente informativo, y no brinda consejo, recomendación, asesoramiento o invitación de
+        ningún tipo, ni de ninguna clase o naturaleza, para realizar actos y/u operaciones de cualquier tipo, clase o
+        naturaleza. Las fuentes de información aquí citadas son de público acceso. Los cuadros mostrados en este sitio
+        son elaborados sobre la base de los datos de público acceso que en cada caso se indica, y constituyen propiedad
+        intelectual amparada por la Ley N°11.723. Los titulares de este sitio deslindan toda responsabilidad respecto de
+        la posible falta de precisión y/o veracidad y/o exactitud y/o integridad y/o vigencia de los datos y/o de las
+        fuentes de información de público acceso tenidos en consideración para la elaboración del contenido de este
+        sitio. Los titulares de este sitio no garantizan la precisión y/o veracidad y/o exactitud y/o integridad y/o
+        vigencia de los datos mostrados en este sitio. Los titulares de este sitio deslindan toda responsabilidad
+        respecto del uso que puedan llegar a dar a la información y/o a los datos incluídos en el contenido de este
+        sitio quienes accedan a este último. Los titulares de este sitio no se responabilizan por los eventuales daños
+        patrimoniales y/o perjuicios que pudieren resultar de decisiones adoptadas sobre la base de los datos mostrados
+        en este sitio por quienes accedan a este último. Los titulares de este sitio no mantienen ni poseen ningún tipo
+        de acuerdo, asociación, alianza o vínculo con los anunciantes que publicitan sus productos y/o servicios en este
+        sitio más que la locación de espacios publicitarios. Los titulares de este sitio no se responsabilizan respecto
+        de la precisión y/o veracidad y/o exactitud y/o integridad y/o vigencia de los contenidos de las piezas
+        publicitarias o banners, por lo que tales contenidos son de exclusiva responsabilidad de los respectivos
+        anunciantes.</p>
+      <div class="footerMarca">
+        <img class="logoBlanco" src="./img/logo-blanco.png" alt="Logo Dólar">
+        <img class="banderaFooter"
+          src="./img/icon.png"
+          alt="Bandera Argentina">
+        <img class="bancoFooter" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Bcra_logo.png"
+          alt="Banco Central">
+      </div>
+    </footer>
+  </section>
+  <!--Termina el Footer-->
+</body>
+
 </html>
