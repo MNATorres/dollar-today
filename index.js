@@ -14,6 +14,7 @@ $( document ).ready(function() {
 });
 
 function getValueText(text) {
+    if (text == "No cotiza") return "-"
     if (!text.includes("$")) return `$${text}`
     return text
 }
