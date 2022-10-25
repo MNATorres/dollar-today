@@ -29,36 +29,35 @@
   <meta itemprop="keywords" content="Cripto">
   <meta itemprop="keywords" content="Banco Central">
   <meta itemprop="keywords" content="Javier Milei">
-  <link rel="shortcut icon" href="./img/favicon.ico">
+  <link rel="shortcut icon" href="/img/favicon.ico">
   <meta name="description"
     content="Seguí la cotización del dólar minuto a minuto, conocé el precio del dólar en DolarArgentina.com">
-  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="stylesheet" href="/styles/index.css" />
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/95f057a988.js" crossorigin="anonymous"></script>
-  <script src="./index.js"></script>
+  <script src="/index.js"></script>
 </head>
 
 <body>
   <section>
     <header class="header">
-      <div class="headerImage">
-        <img class="imageLogo" src="./img/dolarLogo.svg" alt="Dolar" />
-        <img class="LogoArg" src="./img/icon.png" alt="Dolar Argentina" />
-      </div>
-      
-
+      <a class="headerImage" href="/">
+        <img class="imageLogo" src="/img/dolarLogo.svg" alt="Dolar" />
+        <img class="LogoArg" src="/img/icon.png" alt="Dolar Argentina" />
+      </a>
 
       <ul class="menu-desktop">
-        <!-- <li><a href="#">Menu</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Menu</a></li> -->
+        <li><a href="/blue">Blue</a></li>
+        <li><a href="/oficial">Oficial</a></li>
+        <li><a href="/bolsa">Bolsa</a></li>
+        <li><a href="/liqui">C. Liqui</a></li>
+        <li><a href="/turista">Turista</a></li>
       </ul>
 
-      <!-- <ul class="menu-movil">
+      <ul class="menu-movil">
         <i class="fa-solid fa-bars"></i>
-      </ul> -->
+      </ul>
     </header>
   </section>
 
@@ -66,7 +65,9 @@
     <main class="main">
       <div class="containerDollar">
         <div class="dollar-blue" name="blue">
-          <h2 clas>DÓLAR BLUE</h2>
+          <a href="/blue">
+            <h2 clas>DÓLAR BLUE</h2>
+          </a>
           <div class="description-dollar-blue">
             <div class="compraBlue precio">
               <h2>Compra</h2>
@@ -85,7 +86,10 @@
 
         <div class="otherDollar" name="oficial">
           <div class="dollar-oficial otherDollarValue">
-            <h2>Dólar Oficial</h2>
+
+            <a href="/oficial">
+              <h2>Dólar Oficial</h2>
+            </a>
             <div class="description-other-dollar">
               <div class="compraOther cambioOther">
                 <h2>Compra</h2>
@@ -99,7 +103,7 @@
           </div>
 
           <div class="dollar-bolsa otherDollarValue" name="bolsa">
-            <h2>Dólar Bolsa</h2>
+            <a href="/bolsa"><h2>Dólar Bolsa</h2></a>
             <div class="description-other-dollar">
               <div class="compraOther cambioOther">
                 <h2>Compra</h2>
@@ -113,7 +117,7 @@
           </div>
 
           <div class="dollar-liqui otherDollarValue" name="ccliqui">
-            <h2>Contado con Liqui</h2>
+            <a href="/liqui"><h2>Contado con Liqui</h2></a>
             <div class="description-other-dollar">
               <div class="compraOther cambioOther">
                 <h2>Compra</h2>
@@ -127,7 +131,7 @@
           </div>
 
           <div class="dollar-liqui otherDollarValue" name="turista">
-            <h2>Dólar Turista</h2>
+            <a href="/turista"><h2>Dólar Turista</h2></a>
             <div class="description-other-dollar">
               <div class="compraOther cambioOther">
                 <h2>Compra</h2>
@@ -165,10 +169,8 @@
         publicitarias o banners, por lo que tales contenidos son de exclusiva responsabilidad de los respectivos
         anunciantes.</p>
       <div class="footerMarca">
-        <img class="logoBlanco" src="./img/logo-blanco.png" alt="Logo Dólar">
-        <img class="banderaFooter"
-          src="./img/icon.png"
-          alt="Bandera Argentina">
+        <img class="logoBlanco" src="/img/logo-blanco.png" alt="Logo Dólar">
+        <img class="banderaFooter" src="/img/icon.png" alt="Bandera Argentina">
         <img class="bancoFooter" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Bcra_logo.png"
           alt="Banco Central">
       </div>

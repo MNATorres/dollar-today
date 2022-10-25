@@ -39,7 +39,6 @@ body{
 .menu-desktop{
     display: flex;
     justify-content: space-between;
-    width: 300px;
 }
 
 .menu-desktop li, .menu-desktop a {
@@ -47,6 +46,22 @@ body{
     text-decoration: none;
     color: gray;
     transition: ease-in-out 200ms;
+    margin-inline: .4em;
+}
+
+.containerDollar a {
+    color: unset;
+    text-decoration: none;
+}
+
+.menu-desktop li a{
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.menu-desktop li {
+    display: flex;
+    align-items: center;
 }
 
 .menu-desktop a:hover{
@@ -64,6 +79,7 @@ body{
 
 .main{
     max-width: 1080px;
+    min-height: 60vh;
     margin: 0 auto;
     display: flex;
 }
@@ -203,14 +219,15 @@ body{
         padding: 0 10px;
     }
 
-    .menu-desktop{
-        display: none;
+    .header{
+        display: flex;
+        flex-direction: column;
     }
 
-    .menu-movil{
+    /* .menu-movil{
         display: unset;
         font-size: 2rem;
-    }
+    } */
 
     .dollar-blue{
         margin-bottom: 5px;
