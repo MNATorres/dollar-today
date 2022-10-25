@@ -2,7 +2,7 @@ $( document ).ready(function() {
     $("#updated").text(document.lastModified)
     $.ajax({
         dataType: "json",
-        url: "values.json",
+        url: "/values.json",
         success: (data) => {
             Object.keys(data).forEach(key => {
                 const item = $(`[name="${key}"]`)
