@@ -157,12 +157,15 @@ body{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 30px;
+    padding: 30px 7px;
+    
 }
 
 .cambioOther h2{
     font-size: 1rem;
 }
+
+
 
 .cambioOther p{
     font-size: 2rem;
@@ -213,6 +216,21 @@ body{
 
 /****** Media Queries *******/
 
+@media screen and (max-width: 833px ){
+    .compraOther{
+        margin-right: 1%;
+    }
+
+    .description-other-dollar{
+        padding: 30px 0;
+    }
+
+    #compra, #venta {
+        font-size: 1.7rem;
+    }
+
+}
+
 @media screen and (max-width: 770px ) {
 
     .main{
@@ -240,12 +258,21 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;    }
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;    
+    }
+
+    .otherDollarValue a h2{
+        text-align: start;
+    }
 
     .description-other-dollar{
         padding: 0;
         justify-content: flex-end;
         
+    }
+
+    .compraTurista{
+        margin-right: 30px;
     }
 
     .ventaOther{
